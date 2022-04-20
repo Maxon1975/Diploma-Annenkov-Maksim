@@ -202,11 +202,16 @@ public class CreditFieldsTest {
 
     @Test
     void shouldNotPayWhenRussianOwner() {
-        val info = getRussianNameOwnerCard();
+        val info = getEnglishNameOwnerCard();
         creditpayPage.fillForm(info);
         creditpayPage.waitIfWrongFormatMessage();
     }
-
+    @Test
+    void shouldNotPayWhenEnglishOwner() {
+        val info = getEnglishNameOwnerCard();
+        creditpayPage.fillForm(info);
+        creditpayPage.waitIfWrongFormatMessage();
+    }
     @Test
     void shouldNotPayWhenNumbersOwner() {
         val info = getNumberNameOwnerCard();

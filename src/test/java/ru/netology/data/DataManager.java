@@ -126,23 +126,25 @@ public class DataManager {
 //  Проверка поля "Владелец"
 
     public static CardInfo getOneWordOwnerCard() {
-        return new CardInfo("4444 4444 4444 4441", dF.format(tMonth), dF.format(tYear + 1), "Popova", cvv.toString());
+        return new CardInfo("4444 4444 4444 4441", dF.format(tMonth), dF.format(tYear + 1), "Belova", cvv.toString());
     }
 
     public static CardInfo getThreeWordOwnerCard() {
-        return new CardInfo("4444 4444 4444 4441", dF.format(tMonth), dF.format(tYear + 1), "Popova Irina Petrovna", cvv.toString());
+        return new CardInfo("4444 4444 4444 4441", dF.format(tMonth), dF.format(tYear + 1), "Belova Galina Ivanovna", cvv.toString());
     }
 
     public static CardInfo getSymbolNameOwnerCard() {
-        return new CardInfo("4444 4444 4444 4441", dF.format(tMonth), dF.format(tYear + 1), "#$%#% #$%#^&*", cvv.toString());
+        return new CardInfo("4444 4444 4444 4441", dF.format(tMonth), dF.format(tYear + 1), "$>", cvv.toString());
     }
 
+    public static CardInfo getEnglishNameOwnerCard() {
+        return new CardInfo("4444 4444 4444 4441", dF.format(tMonth), dF.format(tYear + 1), " Galina Belova", cvv.toString());
+    }
     public static CardInfo getRussianNameOwnerCard() {
-        return new CardInfo("4444 4444 4444 4441", dF.format(tMonth), dF.format(tYear + 1), "Попова Ирина", cvv.toString());
+        return new CardInfo("4444 4444 4444 4441", dF.format(tMonth), dF.format(tYear + 1), "Галина Белова", cvv.toString());
     }
-
     public static CardInfo getNumberNameOwnerCard() {
-        return new CardInfo("4444 4444 4444 4441", dF.format(tMonth), dF.format(tYear + 1), "98651 216549", cvv.toString());
+        return new CardInfo("4444 4444 4444 4441", dF.format(tMonth), dF.format(tYear + 1), "09", cvv.toString());
     }
 
     public static CardInfo getEmptyCVVCard() {
