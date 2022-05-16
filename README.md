@@ -1,5 +1,5 @@
 # Дипломный проект по курсу «Тестировщик программного обеспечения»
-[Задание на дипломную работу работу](https://github.com/netology-code/qa-diploma/blob/master/README.md) 
+[Задание на дипломную работу](https://github.com/netology-code/qa-diploma/blob/master/README.md) 
 
 ## Документация
 
