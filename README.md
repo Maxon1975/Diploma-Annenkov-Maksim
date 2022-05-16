@@ -24,7 +24,7 @@
 - Запуск приложения `java -jar aqa-shop.jar --spring.datasource.url=jdbc:postgresql://localhost:5432/app`. Дождаться появления строки `ru.netology.shop.ShopApplication : Started ShopApplication ...`
 - Запуск автотестов `./gradlew clean test -Ddb.url=jdbc:postgresql://localhost:5432/app allureReport`
 
-## Отчеты
+## Отчёты
 
 Для того, чтобы посмотреть результаты прогона автотестов, нужно  запустить в терминале команду: `./gradlew allureServe`, результаты будут доступны по адресу: `http://localhost:37653/index.html`
 
