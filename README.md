@@ -1,5 +1,5 @@
-# Дипломный проект по курсу «Тестировщик ПО»
-[Задание на работу](https://github.com/Satura/qa-diploma) 
+# Дипломный проект по курсу «Тестировщик программного обеспечения»
+[Задание на работу](https://github.com/netology-code/qa-diploma/blob/master/README.md) 
 
 ## Документация
 
