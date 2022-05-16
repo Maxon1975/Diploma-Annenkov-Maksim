@@ -1,5 +1,5 @@
 # Дипломный проект профессии «Тестировщик программного обеспечения
-[Дипломное задание] (https://github.com/netology-code/qa-diploma/blob/master/README.md)
+Дипломное задание https://github.com/netology-code/qa-diploma/blob/master/README.md
  
 
 ## Как правильно работать над дипломом?
